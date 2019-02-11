@@ -2,7 +2,8 @@ from informador import Informador
 
 informador = Informador()
 informador.scrapping()
-print(len(informador.lista))
+# print(len(informador.lista))
+informador.to_json()
 
 
 # #Importamos las dos librerias necesarias
