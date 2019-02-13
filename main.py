@@ -2,6 +2,7 @@ from informador import Informador
 
 informador = Informador()
 informador.scrapping()
+informador.scrapping_renta()
 # print(len(informador.lista))
 informador.to_json()
 
