@@ -6,7 +6,6 @@ informador.scrapping_renta()
 # print(len(informador.lista))
 informador.to_json()
 
-
 # #Importamos las dos librerias necesarias
 # import  requests
 # import json
