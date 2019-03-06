@@ -86,7 +86,7 @@ def insertar_bienraiz(casa,id_colonia,id_fecha):
                             id_fecha));
     conexion.commit()
     id_casa = cursor.lastrowid
-    for img in casa['img']:
+    for img in casa['imgs']:
         insertar_imagen(img,id_casa)
 
 
